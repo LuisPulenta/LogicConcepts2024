@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Número Par o Impar", "01-Número Par o Impar", "{471DD5AB-B414-4B5E-A96A-6D77005B4A1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberOddOrNot", "IsNumberOddOrNot\IsNumberOddOrNot.csproj", "{7FB8CBDB-A469-44F7-872D-E28FBD587944}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB8CBDB-A469-44F7-872D-E28FBD587944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB8CBDB-A469-44F7-872D-E28FBD587944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB8CBDB-A469-44F7-872D-E28FBD587944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB8CBDB-A469-44F7-872D-E28FBD587944}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7FB8CBDB-A469-44F7-872D-E28FBD587944} = {471DD5AB-B414-4B5E-A96A-6D77005B4A1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421FD8CF-CC8E-4421-8367-4466B3DD4DF9}
