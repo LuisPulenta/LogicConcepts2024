@@ -11,8 +11,8 @@ do
     var creditValue = ConsoleExtension.GetDecimal("Valor Crédito..............: ");
     var stratum = ConsoleExtension.GetInt ("Estrato Estudiante.........: ");
     Console.WriteLine                            ("-----------------------------");
-    Console.WriteLine($"El Costo de la Matrícula es............: {CalculateRegistrationValue(credits,creditValue,stratum):C2}");
-    Console.WriteLine($"El Valor del Subsidio es...............: {CalculateSubsidy(stratum):C2}");
+    Console.WriteLine($"El Costo de la Matrícula es............: {CalculateRegistrationValue(credits,creditValue,stratum),20:C2}");
+    Console.WriteLine($"El Valor del Subsidio es...............: {CalculateSubsidy(stratum),20:C2}");
     do
     {
         answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]i, [N]o?: ", options);
