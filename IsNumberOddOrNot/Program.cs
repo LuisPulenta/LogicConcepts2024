@@ -1,37 +1,30 @@
-﻿Console.WriteLine("*** NUMERO PAR O IMPAR ***");
+﻿using Shared;
+
+Console.WriteLine("*** NUMERO PAR O IMPAR ***");
 Console.WriteLine("--------------------------");
-var numberString = string.Empty;
+
+var answer = string.Empty;
+var options = new List<string> { "s", "n" };
 do
 {
-    Console.Write("Ingrese Número ENTERO o 'S' para salir: ");
-    numberString = Console.ReadLine();
-
-    if (numberString!.ToUpper() == "S")
-    {
-        continue;
-    }
-
-    int numberInt;
-
-    if (int.TryParse(numberString, out numberInt ))
-    {
-        numberInt = int.Parse(numberString!);
-
-        if (numberInt % 2 == 0)
+    var number = ConsoleExtension.GetInt("Ingrese Número ENTERO: ");
+    if (number % 2 == 0)
         {
-            Console.WriteLine($"{numberInt} es PAR");
+            Console.WriteLine($"{number} es PAR");
         }
         else
         {
-            Console.WriteLine($"{numberInt} es IMPAR");
+            Console.WriteLine($"{number} es IMPAR");
         }
-    }
-    else
+    
+    do
     {
-        Console.WriteLine($"El valor ingresado {numberString} no es un número entero");
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]i, [N]o?: ", options);
     }
+    while (!options.Any(x=>x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
+    
 }
-while (numberString.ToUpper() != "S");
+while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
 Console.WriteLine("--------------------------");
 Console.WriteLine("***         FIN        ***");

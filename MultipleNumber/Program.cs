@@ -3,6 +3,9 @@
 Console.WriteLine("*** NUMERO MULTIPLO ***");
 Console.WriteLine("-----------------------");
 
+var answer = string.Empty;
+var options = new List<string> { "s", "n" };
+
 do
 {
     var a = ConsoleExtension.GetInt("Ingrese primer número: ");
@@ -24,4 +27,15 @@ do
         Console.WriteLine($"{a} y {b} no son múltiplos ");
     }
     Console.WriteLine("------------------------");
-} while (true);
+    do
+    {
+        answer = ConsoleExtension.GetValidOptions("¿Deseas continuar [S]i, [N]o?: ", options);
+    }
+    while (!options.Any(x => x.Equals(answer, StringComparison.CurrentCultureIgnoreCase)));
+
+}
+while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
+
+Console.WriteLine("--------------------------");
+Console.WriteLine("***         FIN        ***");
+Console.WriteLine("--------------------------");

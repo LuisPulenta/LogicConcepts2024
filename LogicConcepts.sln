@@ -9,21 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsNumberOddOrNot", "IsNumbe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Número Mayor", "02-Número Mayor", "{A65B48D8-C576-4D26-B0D9-AA986E220AAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheGreatestNumber", "TheGreatestNumber\TheGreatestNumber.csproj", "{3837A2E1-26A1-4ECC-BCA5-5E30B99BE28C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheGreatestNumber", "TheGreatestNumber\TheGreatestNumber.csproj", "{3837A2E1-26A1-4ECC-BCA5-5E30B99BE28C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{5728D4E9-936E-485E-8A84-A4EEB19F589F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{5728D4E9-936E-485E-8A84-A4EEB19F589F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Ordenación de 3 números", "03-Ordenación de 3 números", "{C1606609-1273-49AC-89DC-75D0D6FA223E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderThreeNumbers", "OrderThreeNumbers\OrderThreeNumbers.csproj", "{AD1B0ADD-D5A6-4071-8424-F0AD6F45A562}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderThreeNumbers", "OrderThreeNumbers\OrderThreeNumbers.csproj", "{AD1B0ADD-D5A6-4071-8424-F0AD6F45A562}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Número es múltiplo de otro", "04-Número es múltiplo de otro", "{214D2273-74DF-41F1-ADF4-94BC803DC465}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleNumber", "MultipleNumber\MultipleNumber.csproj", "{F0EE8C65-C246-41AD-93CC-514E2DB5D903}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleNumber", "MultipleNumber\MultipleNumber.csproj", "{F0EE8C65-C246-41AD-93CC-514E2DB5D903}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Año bisiesto", "05-Año bisiesto", "{2E43D4DA-FE0A-49CE-B3EE-0AC155426C05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYear", "LeapYear\LeapYear.csproj", "{5E734FA9-0191-4741-B7C8-9AAA81564245}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeapYear", "LeapYear\LeapYear.csproj", "{5E734FA9-0191-4741-B7C8-9AAA81564245}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Nomina sencilla", "06-Nomina sencilla", "{D49FF2DA-E8B1-448B-B0FB-4FCC144430C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePayroll", "SimplePayroll\SimplePayroll.csproj", "{0943966C-4835-4E2F-B7C1-F45F2837EE03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +59,10 @@ Global
 		{5E734FA9-0191-4741-B7C8-9AAA81564245}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E734FA9-0191-4741-B7C8-9AAA81564245}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E734FA9-0191-4741-B7C8-9AAA81564245}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0943966C-4835-4E2F-B7C1-F45F2837EE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0943966C-4835-4E2F-B7C1-F45F2837EE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0943966C-4835-4E2F-B7C1-F45F2837EE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0943966C-4835-4E2F-B7C1-F45F2837EE03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{AD1B0ADD-D5A6-4071-8424-F0AD6F45A562} = {C1606609-1273-49AC-89DC-75D0D6FA223E}
 		{F0EE8C65-C246-41AD-93CC-514E2DB5D903} = {214D2273-74DF-41F1-ADF4-94BC803DC465}
 		{5E734FA9-0191-4741-B7C8-9AAA81564245} = {2E43D4DA-FE0A-49CE-B3EE-0AC155426C05}
+		{0943966C-4835-4E2F-B7C1-F45F2837EE03} = {D49FF2DA-E8B1-448B-B0FB-4FCC144430C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421FD8CF-CC8E-4421-8367-4466B3DD4DF9}
