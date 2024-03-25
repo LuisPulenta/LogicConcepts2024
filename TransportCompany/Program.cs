@@ -21,9 +21,9 @@ do
 
     var packages10 = ConsoleExtension.GetInt("Número de encomiendas de menos de 10Kg..........:  ");
 
-    var packages10_20 = ConsoleExtension.GetInt("Número de encomiendas entre 10Kg y menos de 20Kg:   ");
+    var packages10_20 = ConsoleExtension.GetInt("Número de encomiendas entre 10Kg y menos de 20Kg:  ");
     
-    var packages20 = ConsoleExtension.GetInt("Número de encomiendas de más de 20Kg............:   ");
+    var packages20 = ConsoleExtension.GetInt("Número de encomiendas de más de 20Kg............:  ");
 
     //Calculations
     var incomePassangers = GetIncomePassangers(route, passangers, trips);
@@ -39,14 +39,14 @@ do
     Console.WriteLine("----------------");
     Console.WriteLine($"Ingresos por Pasajeros.........................:{incomePassangers,20:C2}");
     Console.WriteLine($"Ingresos por Encomiendas.......................:{incomePackages,20:C2}");
-    Console.WriteLine($"------------------------------------------------------------------------------");
+    Console.WriteLine($"--------------------------------------------------------------------");
     Console.WriteLine($"TOTAL INGRESOS.................................:{incomes,20:C2}");
     Console.WriteLine($"Pago Ayudante..................................:{valueHelper,20:C2}");
     Console.WriteLine($"Pago Seguro....................................:{valueAssurance,20:C2}");
     Console.WriteLine($"Pago Combustible...............................:{fuelValue,20:C2}");
-    Console.WriteLine($"------------------------------------------------------------------------------");
+    Console.WriteLine($"--------------------------------------------------------------------");
     Console.WriteLine($"TOTAL DEDUCCIONES..............................:{deductions,20:C2}");
-    Console.WriteLine($"------------------------------------------------------------------------------");
+    Console.WriteLine($"--------------------------------------------------------------------");
     Console.WriteLine($"TOTAL A LIQUIDAR...............................:{totalToPay,20:C2}");
 
     do
