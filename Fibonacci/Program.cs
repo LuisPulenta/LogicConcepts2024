@@ -8,24 +8,25 @@ var options = new List<string> { "s", "n" };
 do
 {
     var n = ConsoleExtension.GetInt("Cuantos términos quiere: ");
-    var sum = 0;
 
     double a = 0;
     double b = 1;
     double c = 0;
+    double sum = 1;
 
     Console.Write($"{a:N0}\t{b:N0}\t");
 
     for ( int i = 2; i<n; i++)
     {
         c = a + b;
+        sum += c;
         Console.Write($"{c:N0}\t");
         a= b;
         b=c;
     }
     Console.WriteLine();
 
-    //Console.WriteLine($"La suma es: {sum:N5}");
+    Console.WriteLine($"La suma es: {sum:N0}");
 
 
     do
