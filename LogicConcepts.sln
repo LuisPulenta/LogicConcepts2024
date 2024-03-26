@@ -51,19 +51,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TransportCompany", "Transpo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-Serie de Numeros Sumatoria y Promedio", "12-Serie de Numeros Sumatoria y Promedio", "{B980B53F-6821-42BF-9751-949569053C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSeries", "NumberSeries\NumberSeries.csproj", "{0CF75EEF-CC93-4742-928C-692B9B2EDED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSeries", "NumberSeries\NumberSeries.csproj", "{0CF75EEF-CC93-4742-928C-692B9B2EDED8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-Factorial", "13-Factorial", "{21BC48F6-C526-4DCB-AD37-A5424E6DAC19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{393007E1-A0AE-44AD-B445-8F023EEC4663}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Factorial\Factorial.csproj", "{393007E1-A0AE-44AD-B445-8F023EEC4663}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-Serie de Taylor", "14-Serie de Taylor", "{7A82A53C-8D95-4140-9359-5E0769CC8EFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taylor", "Taylor\Taylor.csproj", "{7B310679-2A07-45D7-B21E-869FC7580D41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Taylor", "Taylor\Taylor.csproj", "{7B310679-2A07-45D7-B21E-869FC7580D41}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15-Serie de Taylor modificada", "15-Serie de Taylor modificada", "{81BC5494-A2EE-4B4F-8BC4-1A3CA3E6B6CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaylorModif", "TaylorModif\TaylorModif.csproj", "{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaylorModif", "TaylorModif\TaylorModif.csproj", "{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-Ecuaciones Cuadraticas", "16-Ecuaciones Cuadraticas", "{C0AF45B8-63EC-47C2-976D-CF07731BAAC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "QuadraticEquation\QuadraticEquation.csproj", "{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,10 @@ Global
 		{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +163,7 @@ Global
 		{393007E1-A0AE-44AD-B445-8F023EEC4663} = {21BC48F6-C526-4DCB-AD37-A5424E6DAC19}
 		{7B310679-2A07-45D7-B21E-869FC7580D41} = {7A82A53C-8D95-4140-9359-5E0769CC8EFA}
 		{9B5C139D-AB40-44F3-AC6D-AFF9A27B1090} = {81BC5494-A2EE-4B4F-8BC4-1A3CA3E6B6CA}
+		{D2A02B6F-464C-4B11-8C20-C1DEF09BA2F6} = {C0AF45B8-63EC-47C2-976D-CF07731BAAC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421FD8CF-CC8E-4421-8367-4466B3DD4DF9}

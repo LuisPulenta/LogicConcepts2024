@@ -1,7 +1,7 @@
 ﻿using Shared;
 
-Console.WriteLine("*** SERIE DE TAYLOR MODIFICADA***");
-Console.WriteLine("---------------------------------");
+Console.WriteLine("*** SERIE DE TAYLOR MODIFICADA ***");
+Console.WriteLine("----------------------------------");
 
 var answer = string.Empty;
 var options = new List<string> { "s", "n" };
