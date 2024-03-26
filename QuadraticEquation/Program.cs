@@ -1,5 +1,4 @@
 ﻿using Shared;
-using System.Security.Cryptography.X509Certificates;
 
 Console.WriteLine("*** ECUACION CUADRATICA ***");
 Console.WriteLine("---------------------------");
