@@ -1,32 +1,19 @@
 ﻿using Shared;
 
-Console.WriteLine("*** SERIE DE FIBONACCI MODIFICADO ***");
-Console.WriteLine("-------------------------------------");
+Console.WriteLine("*** NUMERO E ***");
+Console.WriteLine("----------------");
 
 var answer = string.Empty;
 var options = new List<string> { "s", "n" };
 do
 {
-    var n = ConsoleExtension.GetInt("Cuantos términos quiere: ");
+    var n = ConsoleExtension.GetInt("Cuantos términos de precisión quieres: ");
 
-    double a = 0;
-    double b = 1;
-    double c = 0;
-    double sum = 1;
+    var e = CalculateE(n);
+    
+    
 
-    Console.Write($"{a:N0}\t{b:N0}\t");
-
-    for (int i = 2; i < n; i++)
-    {
-        c = a + b;
-        sum += c;
-        Console.Write($"{c:N0}\t");
-        a = b;
-        b = c;
-    }
-    Console.WriteLine();
-
-    Console.WriteLine($"La suma es: {sum:N0}");
+    Console.WriteLine($"El número e calculado con {n} términos de precisión es: {e}");
 
 
     do
@@ -38,8 +25,18 @@ do
 }
 while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 
-
 Console.WriteLine("--------------------------");
 Console.WriteLine("***         FIN        ***");
 Console.WriteLine("--------------------------");
 
+//---------------------------------------------------------------------
+double CalculateE(int n)
+{
+    double e = 0.0;
+    
+    for (int i = 0; i <= n; i++)
+    {
+        e += (1 / MyMath.Factorial(i));
+    }
+    return e;
+}

@@ -1,7 +1,7 @@
 ﻿using Shared;
 
-Console.WriteLine("*** SERIE DE FIBONACCI MODIFICADO ***");
-Console.WriteLine("-------------------------------------");
+Console.WriteLine("*** SERIE DE FIBONACCI ***");
+Console.WriteLine("--------------------------");
 
 var answer = string.Empty;
 var options = new List<string> { "s", "n" };
@@ -11,18 +11,18 @@ do
 
     double a = 0;
     double b = 1;
-    double c = 0;
-    double sum = 1;
+    double c = 2;
+    double sum = 3;
 
-    Console.Write($"{a:N0}\t{b:N0}\t");
+    Console.Write($"{a,20:N0}{b,20:N0}{c,20:N0}");
 
-    for (int i = 2; i < n; i++)
+    for (int i = 3; i < n; i++)
     {
-        c = a + b;
-        sum += c;
-        Console.Write($"{c:N0}\t");
+        double d = a + b + c;
+        Console.Write($"{d,20:N0}");
         a = b;
         b = c;
+        c = d;
     }
     Console.WriteLine();
 
@@ -42,4 +42,25 @@ while (answer!.Equals("s", StringComparison.CurrentCultureIgnoreCase));
 Console.WriteLine("--------------------------");
 Console.WriteLine("***         FIN        ***");
 Console.WriteLine("--------------------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
