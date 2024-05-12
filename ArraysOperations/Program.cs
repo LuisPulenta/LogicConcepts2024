@@ -13,12 +13,10 @@ do
 
     FillArray(numbers);
 
-    double sum = GetSumArray(numbers);
-    
     ShowArray(numbers);
 
-    Console.WriteLine($"La sumatoria es {sum,10:N0}");
-    Console.WriteLine($"El promedio es {sum/n,10:N2}");
+    Console.WriteLine($"La sumatoria es {numbers.Sum(),10:N2}");
+    Console.WriteLine($"El promedio es {numbers.Average(),11:N2}");
 
     do
     {
@@ -51,16 +49,4 @@ void ShowArray(int[] numbers)
         Console.Write($"{number,10:N0}");
     }
     Console.WriteLine();
-}
-
-
-//---------------------------------------------------------------------
-double GetSumArray(int[] numbers)
-{
-    double sum = 0;
-    foreach (var number in numbers)
-    {
-        sum += number;
-    }
-    return sum;
 }
