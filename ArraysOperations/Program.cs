@@ -18,7 +18,7 @@ do
     ShowArray(numbers);
 
     Console.WriteLine($"La sumatoria es {sum,10:N0}");
-    Console.WriteLine($"El promedio es {sum/numbers.Length,10:N2}");
+    Console.WriteLine($"El promedio es {sum/n,10:N2}");
 
     do
     {
