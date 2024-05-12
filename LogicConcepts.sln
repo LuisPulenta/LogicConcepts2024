@@ -105,6 +105,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25-Operaciones en un Vector
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysOperations", "ArraysOperations\ArraysOperations.csproj", "{BF83D785-EB15-483E-8D91-375074F3A9EF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26-Ordenación especial de vector", "26-Ordenación especial de vector", "{B88EE3ED-5ED3-45AB-AABF-0426D7A14763}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecialOrderArray", "SpecialOrderArray\SpecialOrderArray.csproj", "{8FBF0979-F6E0-41EC-9B31-B7416C021B14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +219,10 @@ Global
 		{BF83D785-EB15-483E-8D91-375074F3A9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF83D785-EB15-483E-8D91-375074F3A9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF83D785-EB15-483E-8D91-375074F3A9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FBF0979-F6E0-41EC-9B31-B7416C021B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBF0979-F6E0-41EC-9B31-B7416C021B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBF0979-F6E0-41EC-9B31-B7416C021B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBF0979-F6E0-41EC-9B31-B7416C021B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -245,6 +253,7 @@ Global
 		{1284970C-7B7D-4DBC-AF31-E914C040B6FD} = {7AB9F5BA-0AAC-4B91-8D8D-9D1CD388E7A7}
 		{89880CBD-C3BE-4C9F-B8EF-461999EF938C} = {0B7D6970-E116-4440-A86B-8D54743C5994}
 		{BF83D785-EB15-483E-8D91-375074F3A9EF} = {AD5B7B70-F6F3-4953-8A1D-9EC8F2C2B314}
+		{8FBF0979-F6E0-41EC-9B31-B7416C021B14} = {B88EE3ED-5ED3-45AB-AABF-0426D7A14763}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {421FD8CF-CC8E-4421-8367-4466B3DD4DF9}
